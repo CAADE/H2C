@@ -1,0 +1,14 @@
+@startuml
+
+package "Hierarchal-Data-Fabric" {
+    interface "Hierarchal-Data-Fabric" {
+
+    }
+    CLI ()-- "Hierarchal-Data-Fabric"
+    REST ()-- "Hierarchal-Data-Fabric"
+    Web ()-- "Hierarchal-Data-Fabric"
+
+}
+
+
+@enduml

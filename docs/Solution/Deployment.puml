@@ -1,0 +1,32 @@
+@startuml
+
+cloud H2C  #aaffaa {
+  interface "Cloud Portal" as CP
+  database "Data Lake" as DL
+  node "Cloud Island 1" as CI1
+  node "Cloud Island 2" as CI2
+  node "HPC Island 1" as HI1
+  node "HPC Island 2" as HI2
+
+}
+
+rectangle Workloads #aaffff {
+  storage "HPC Workloads" as HPCW
+  storage "Hybrid Workloads" as HW
+  storage "Cloud Workloads" as CW
+}
+
+HPCW --> CP
+HW --> CP
+CW --> CP
+
+CP -> DL
+CP --> CI1
+CP --> CI2
+CP --> HI1
+CP --> HI2
+CI1 == DL : Hierarchal\nData Fabric
+CI2 == DL
+HI1 == DL
+HI2 == DL
+@enduml

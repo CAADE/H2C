@@ -1,0 +1,14 @@
+@startuml
+
+package "Data-Lake" {
+    interface "Data-Lake" {
+
+    }
+    CLI ()-- "Data-Lake"
+    REST ()-- "Data-Lake"
+    Web ()-- "Data-Lake"
+
+}
+
+
+@enduml
