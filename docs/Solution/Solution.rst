@@ -15,7 +15,7 @@ H2C Architectural Overview
 
     /**/UseCase*
 
-.. image:: ../UseCase/UseCase.png
+.. image:: ../UseCases/UseCases.png
 
 Logical Architecture
 --------------------

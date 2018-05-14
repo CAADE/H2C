@@ -7,5 +7,4 @@ Heterogenous Hyper Cloud Use Cases
 
     */UseCase*
 
-
 .. image:: UseCases.png
