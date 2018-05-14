@@ -3,7 +3,7 @@ Heterogenous Hyper Cloud (H2C)
 
 .. toctree::
    :maxdepth: 1
-   :caption: Overview
+   :caption: Architectural Overview
 
    Solution/Solution
 

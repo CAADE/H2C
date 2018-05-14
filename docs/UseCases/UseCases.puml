@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+:Operstions Manager: as ops
+:Stack Developer: as stackdev
+:Application Developer: as dev
+
+rectangle "H2C"  #aaffff {
+  usecase "Manage Cloud Workload" as MCW
+  usecase "Manage HPC Workload" as MHW
+  usecase "Manage Heterogeneous Workload" as MGW
+}
+
+ops --> MCW
+ops --> MHW
+ops --> MGW
+
+@enduml

@@ -1,5 +1,5 @@
-Heterogenous_Hyper_Cloud Use Cases
-=========================
+Heterogenous Hyper Cloud Use Cases
+==================================
 
 .. toctree::
     :glob:

@@ -1,40 +1,40 @@
-# Architectural Overview
+H2C Architectural Overview
+==========================
 
-_Description_
+.. toctree::
+    :glob:
+    :maxdepth: 1
+    :caption: Actors
 
-## [Users](Actors)
+    /**/Actor*
 
- * _Actor_
+.. toctree::
+    :glob:
+    :maxdepth: 1
+    :caption: High Level Use Cases
 
-## High level Use Cases
+    /**/UseCase*
 
-* _UseCases_
+.. image:: ../UseCase/UseCase.png
 
-![Image](./UseCases/UseCases.png)
+Logical Architecture
+--------------------
 
-## Logical Architecture
 
-_Description_
+.. image:: Logical.png
 
-![Image](./Solution/Logical.png)
+Process Architecture
+--------------------
 
-_Systems_
+.. image:: Process.png
 
-## Process Architecture
+Deployment model
+----------------
 
-![Image](./Solution/Processs.png)
+.. image:: Deployment.png
 
-## Deployment model
+Physical Architecture
+---------------------
 
-_Description_
-
-![Image](./Solution/Deployment.png)
-
-## Physical Architecture
-
-_Description_
-
-![Image](./Solution/Physical.png)
-
-_Systems_
+.. image:: Physical.png
 
