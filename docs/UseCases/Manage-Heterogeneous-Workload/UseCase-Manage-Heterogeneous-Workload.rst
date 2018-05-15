@@ -24,7 +24,7 @@ Detail Scenarios
    :glob:
    :maxdepth: 1
 
-   Scenarios*
+   Scenario*
 
 Systems Involved
 ----------------
