@@ -1,7 +1,7 @@
 .. _Actor-Application-Developer:
 
-Actor Application Developer
-===========================
+Application Developer
+=====================
 
 Use Cases
 ---------

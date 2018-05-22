@@ -1,7 +1,7 @@
 .. _Actor-Stack-Developer:
 
-Actor Stack Developer
-=====================
+Stack Developer
+===============
 
 Use Cases
 ---------
