@@ -1,0 +1,18 @@
+@startuml
+
+package Workloads as W #ffffff {
+
+    class "Hybrid Workload" as HW #aaffaa {
+
+    }
+    class "HPC Workload" as HPCW #aaffff {
+
+    }
+    class "Cloud Workload" as CW #ffffaa {
+
+    }
+}
+
+HW *--> HPCW
+HW *--> CW
+@enduml

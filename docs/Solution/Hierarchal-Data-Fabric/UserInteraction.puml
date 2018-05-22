@@ -1,6 +1,0 @@
-@startuml
-actor User
-
-User -> "Hierarchal-Data-Fabric": UseCase
-
-@enduml

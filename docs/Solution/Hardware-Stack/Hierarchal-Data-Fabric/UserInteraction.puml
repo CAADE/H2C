@@ -1,0 +1,6 @@
+@startuml
+actor User
+
+User -> "Hardware-Stack/Hierarchal-Data-Fabric": UseCase
+
+@enduml

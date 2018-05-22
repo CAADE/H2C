@@ -1,0 +1,9 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Workload" #lightblue
+participant "Heterogenous_Hyper_Cloud" as S
+A -> S : Manage-Hybrid-Workload
+end box
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+package "H2C Portal" {
+    interface "H2C Portal" {
+    }
+    CLI ()-- "H2C Portal"
+    REST ()-- "H2C Portal"
+    Web ()-- "H2C Portal"
+
+}
+
+
+@enduml

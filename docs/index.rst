@@ -1,5 +1,5 @@
-Heterogenous Hyper Cloud (H2C)
-==============================
+Heterogeneous Hyper Cloud (H2C)
+===============================
 
 .. toctree::
    :maxdepth: 1

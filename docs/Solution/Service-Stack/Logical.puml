@@ -1,0 +1,14 @@
+@startuml
+
+package "Service-Stack" {
+    interface "Service-Stack" {
+
+    }
+    CLI ()-- "Service-Stack"
+    REST ()-- "Service-Stack"
+    Web ()-- "Service-Stack"
+
+}
+
+
+@enduml

@@ -1,7 +1,7 @@
 @startuml
 
 cloud H2C  #aaffaa {
-  interface "Cloud Portal" as CP
+  interface "H2C Portal" as CP
   database "Data Lake" as DL
   node "Cloud Island 1" as CI1
   node "Cloud Island 2" as CI2

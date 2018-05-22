@@ -1,0 +1,18 @@
+@startuml
+
+partition "Hardware-Stack/Cloud-Island" {
+
+}
+
+partition SubSystem  #cccccc {
+  (*) --> "Create Project"
+  --> "Write Code"
+}
+
+partition "Hardware-Stack/Cloud-Island" {
+  "Write Code" --> "Test Code"
+  "Test Code" --> "Deploy Code"
+  "Deploy Code" --> (*)
+}
+
+@enduml

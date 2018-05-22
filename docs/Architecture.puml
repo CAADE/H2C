@@ -2,18 +2,30 @@
 
 skinparam packageStyle rect
 
-package Heterogenous_Hyper_Cloud {
-package "SubSystem1" #aaffff {
-}
-package "SubSystem2" #aaffaa {
-}
-package "SubSystem3" #ffaaaa {
-}
+package H2C {
+    package "Service Stack" as SS #aaffff {
+      package "OpenHPC" as OHPC { }
+    }
+    package "Cloud Stack" as CS #aaffaa {
+      package "H2C Portal" as HP { }
+      package "Common Cloud Core" as C3 { }
+      package Cloudlet { }
+      C3 == Cloudlet
+    }
+    package "Hardware Stack" as HS #ffaaaa {
+      package "Cloud Island" as HCI #ffffff { }
+      package "HPC Island" as HHI #ffffff { }
+      package "Hierarchical Data Fabric" as HDF #ffffff { }
+      package "Data Lake" as HDL #ffffff { }
+      HCI --> HDF
+      HHI --> HDF
+      HDF == HDL
+    }
 }
 
-SubSystem1 --> SubSystem2
-SubSystem2 --> SubSystem3
-
+Cloudlet --> HCI
+Cloudlet --> HHI
+HP --> C3
+HP --> OHPC
 
 @enduml
-

@@ -1,0 +1,22 @@
+@startuml
+
+start
+
+partition "H2C Portal" {
+  :Submit Workload;
+  :Evaluate Workload;
+  if (workload.type) then (cloud)
+    :Submit to Cloud;
+  elseif (workload.type) then (hpc)
+    :Provision OpenHPC in Cloud;
+    :Submit to HPC Cluster;
+  elseif (workload.type) then (hybrid)
+    :Provision OpenHPC in Cloud;
+    :Submit to HPC Cluster;
+    :Submit to Cloud;
+  endif
+}
+
+end
+
+@enduml

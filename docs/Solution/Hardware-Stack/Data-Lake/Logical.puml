@@ -1,0 +1,14 @@
+@startuml
+
+package "Hardware-Stack/Data-Lake" {
+    interface "Hardware-Stack/Data-Lake" {
+
+    }
+    CLI ()-- "Hardware-Stack/Data-Lake"
+    REST ()-- "Hardware-Stack/Data-Lake"
+    Web ()-- "Hardware-Stack/Data-Lake"
+
+}
+
+
+@enduml

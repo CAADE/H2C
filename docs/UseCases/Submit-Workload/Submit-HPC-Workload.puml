@@ -1,0 +1,9 @@
+@startuml
+Actor "actorName" as A
+
+box "Submit-Workload" #lightblue
+participant "Heterogenous_Hyper_Cloud" as S
+A -> S : Submit-HPC-Workload
+end box
+
+@enduml

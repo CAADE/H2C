@@ -5,13 +5,13 @@ left to right direction
 :Application Developer: as dev
 
 rectangle "H2C"  #aaffff {
-  usecase "Manage Cloud Workload" as MCW
-  usecase "Manage HPC Workload" as MHW
-  usecase "Manage Heterogeneous Workload" as MGW
+  usecase "Manage Workload" as MW
+  usecase "Submit Workload" as SW
+  usecase "Manage Infrastructure" as MI
 }
 
-ops --> MCW
-ops --> MHW
-ops --> MGW
+ops --> MW
+ops --> SW
+ops --> MI
 
 @enduml

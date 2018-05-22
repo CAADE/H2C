@@ -1,0 +1,32 @@
+@startuml
+
+left to right direction
+
+skinparam usecase {
+  BackgroudnColor #ffffaa
+  BackgroundColor<<Main>> #aaffff
+}
+actor :User: as U
+actor :Commmon Cloud Core: as C3
+actor :OpenHPC: as OHPC
+
+rectangle "H2C Portal" {
+    UseCase "Submit Hybrid Workload" as SHW
+    UseCase "Submit Cloud Workload" as SCW
+    UseCase "Submit HPC Workload" as SHPCW
+    UseCase "Submit Workload" as SWL
+    UseCase "Manage Workload" as MWL
+}
+
+U --> MWL
+U --> SWL
+SHW --|> SWL
+SCW --|> SWL
+SHPCW --|> SWL
+
+SWL --> C3
+SWL --> OHPC
+MWL --> C3
+MWL --> OHPC
+
+@enduml

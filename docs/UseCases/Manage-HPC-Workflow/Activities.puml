@@ -1,9 +1,0 @@
-@startuml
-|actorName|
-start
-|#ffffaa|Heterogenous_Hyper_Cloud|
-:activity1;
-|actor2|
-:activity2;
-stop
-@enduml

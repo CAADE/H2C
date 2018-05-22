@@ -1,0 +1,9 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Infrastructure" #lightblue
+participant "Heterogenous_Hyper_Cloud" as S
+A -> S : Remove-Cloud-Island
+end box
+
+@enduml

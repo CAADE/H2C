@@ -1,0 +1,14 @@
+@startuml
+
+package "Service-Stack/OpenHPC" {
+    interface "Service-Stack/OpenHPC" {
+
+    }
+    CLI ()-- "Service-Stack/OpenHPC"
+    REST ()-- "Service-Stack/OpenHPC"
+    Web ()-- "Service-Stack/OpenHPC"
+
+}
+
+
+@enduml

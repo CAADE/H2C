@@ -1,0 +1,14 @@
+@startuml
+
+package "Hardware-Stack/HPC-Island" {
+    interface "Hardware-Stack/HPC-Island" {
+
+    }
+    CLI ()-- "Hardware-Stack/HPC-Island"
+    REST ()-- "Hardware-Stack/HPC-Island"
+    Web ()-- "Hardware-Stack/HPC-Island"
+
+}
+
+
+@enduml

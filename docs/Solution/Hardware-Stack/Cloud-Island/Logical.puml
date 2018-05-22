@@ -1,0 +1,14 @@
+@startuml
+
+package "Hardware-Stack/Cloud-Island" {
+    interface "Hardware-Stack/Cloud-Island" {
+
+    }
+    CLI ()-- "Hardware-Stack/Cloud-Island"
+    REST ()-- "Hardware-Stack/Cloud-Island"
+    Web ()-- "Hardware-Stack/Cloud-Island"
+
+}
+
+
+@enduml
