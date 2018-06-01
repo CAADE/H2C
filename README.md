@@ -5,10 +5,9 @@ Scenarios, and Test Cases for the Heterogeneous Hyper Cloud (H2C). H2C allows pe
 to run HPC and Cloud workloads in the same cloud infrastructure. 
 
 This repository contains the design and a simple interactive reference architecture of the design.
-Which can be found on the [read the docs](http://h2c.readthedocs.io)
+Which can be found on the [Read the Docs](http://h2c.readthedocs.io) document hub.
 
-An implementation of the reference architecture is written using [sailsjs](http://sailsjs.org/) a nodejs MVC framework.
-
+![image](docs/Solution/Deployment.png)
 
 ## Design
 
@@ -19,6 +18,12 @@ Plantuml is a text based language that lets you describe UML diagrams.
 All of the plantuml graphic files are shown in the *.md (markdown language files). 
 In order to see the graphical representation of the uml files you have to generate *.png files.
 To generate the graphic files (*.png) for the plantuml files (*.puml) do the following:
+
 ```
 # npm run-script design
 ```
+
+## Implementations
+
+An implementation of the reference architecture is written using [sailsjs](http://sailsjs.org/) a nodejs MVC framework.
+

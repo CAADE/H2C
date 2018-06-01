@@ -1,5 +1,9 @@
 @startuml
 
+skinparam rectangleFontSize 20
+skinparam CloudFontSize 20
+skinparam CloudBorderColor #aaaaaa
+
 cloud H2C  #aaffaa {
   interface "H2C Portal" as CP
   database "Data Lake" as DL

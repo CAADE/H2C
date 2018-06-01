@@ -1,8 +1,10 @@
 @startuml
 
 skinparam packageStyle rect
+skinparam packageFontSize 20
+skinparam packageFontName Arial
 
-package H2C {
+package H2C #dddddd {
     package "Service Stack" as SS #aaffff {
       package "OpenHPC" as OHPC { }
     }
